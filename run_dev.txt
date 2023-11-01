@@ -1,0 +1,2 @@
+1º no terminal 'cd my-react-app'
+2º no terminal 'npm run dev'
