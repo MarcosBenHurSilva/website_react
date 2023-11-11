@@ -1,5 +1,3 @@
-import List from './List.jsx'
-
 // HOW TO STYLE REACT COMPONENTS WITH CSS
 //----------------------------------------
 // (not including external frameworks or preproccessors)
@@ -8,7 +6,7 @@ import List from './List.jsx'
 // 2. MODULES
 // 3. INLINE
 
-import Button from './Button.jsx';
+import Button from './Button/Button.jsx';
 
 function App() {
 
