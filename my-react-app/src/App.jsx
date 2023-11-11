@@ -1,12 +1,8 @@
-// HOW TO STYLE REACT COMPONENTS WITH CSS
-//----------------------------------------
-// (not including external frameworks or preproccessors)
+// click event = An interaction when a user clicks on a specific element.
+//               We can respond to clicks by passing
+//               a callback to the onClick event handler.
 
-// 1. EXTERNAL
-// 2. MODULES
-// 3. INLINE
-
-import Button from './Button.jsx';
+import Button from "./Button";
 
 function App() {
 

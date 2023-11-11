@@ -1,15 +1,10 @@
 
-function Button(){
+function Button() {
 
-    const styles = {
-        backgroundColor: "hsl(200, 100%, 50%)",
-        color: "white",
-        padding: "10px 20px",
-        borderRadius: "5px",
-        border: "none",
-        cursor: "pointer",
-    }
+    const handleClick = () => console.log("OUCH!");
 
-    return(<button style={styles}>Click me</button>)
+    const handleClick2 = (name) => console.log(`${name} stop clicking me`);
+
+    return (<button onClick={handleClick2("Marcos")}>Click me 😄</button>);
 }
-export default Button;
+export default Button
