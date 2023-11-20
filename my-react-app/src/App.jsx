@@ -1,12 +1,17 @@
-// click event = An interaction when a user clicks on a specific element.
-//               We can respond to clicks by passing
-//               a callback to the onClick event handler.
+// React hook = Special function that allows functional components
+//                         to use React features without writing class components 
+//                         (useState, useEffect, useContext, useReducer, and more...)                
 
-import Button from "./Button";
+
+// useState() = A React hook that allows the creation of a stateful variable
+//                       AND a setter function to update its value in the Virtual DOM.
+//                       [name, setName]
+
+import MyComponent from './MyComponent.jsx'
+import Counter from './Counter.jsx'
 
 function App() {
-
-    return(<Button/>);
+    return(<Counter />);
 }
 
 export default App
